@@ -93,9 +93,12 @@ table {
   margin-right: 10px;
 }
 
+.header__nav-anchor:hover {
+  font-weight: bold;
+}
+
 .header__nav-anchor:hover::after {
   width: 100%;
-  font-weight: bold;
 }
 
 .header__nav-anchor::after {
