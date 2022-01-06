@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
+  background: linear-gradient(185deg, #98b0bb87, #71acc787);
 
   &__title {
     font-family: "Alata", sans-serif;
@@ -19,7 +20,7 @@
       position: relative;
       font-family: 'Josefin Sans', sans-serif;
       font-size: 1.2rem;
-      color: black;
+      color: #48909b;
       text-decoration: none;
       margin-right: 10px;
 
@@ -38,7 +39,7 @@
         height: 2px;
         left: 50%;
         bottom: -2px;
-        background-color: black;
+        background-color: #48909b;
         transform: translateX(-50%);
         transition: all ease .4s;
       }
