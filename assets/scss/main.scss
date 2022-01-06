@@ -1,8 +1,8 @@
 .main {
   display: flex;
   flex-direction: column;
-  padding: 10px 40px;  
-  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px 40px;
+  font-family: "Josefin Sans", sans-serif;
 
   &-filter {
     display: flex;
@@ -21,6 +21,10 @@
     &__category {
       display: flex;
       align-items: center;
+
+      & #optionCategory {
+        padding: 20px;
+      }
     }
   }
 }

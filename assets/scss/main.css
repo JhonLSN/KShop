@@ -39,4 +39,8 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.main-filter__category #optionCategory {
+  padding: 20px;
+}
 /*# sourceMappingURL=main.css.map */
