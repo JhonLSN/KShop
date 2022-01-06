@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;  
+  font-family: 'Josefin Sans', sans-serif;
+
+  &-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__nav {
+      color: black;
+
+      & a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    &__category {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
