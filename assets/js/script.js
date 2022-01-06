@@ -11,7 +11,7 @@ fetch('../assets/json/items.json')
     })
 
     data.produtos.map((item) => {
-      showItems(item.foto, item.nome, item.descricao, item.preco)
+      showItems(item.id, item.foto, item.nome, item.descricao, item.preco)
     })
   })
 
@@ -24,7 +24,7 @@ function dropDownListFilter(name, id) {
 
 }
 
-function showItems(image, name, description, price) {
+function showItems(id, image, name, description, price) {
   let div = document.createElement('div')
   let img = document.createElement('img')
   let h1 = document.createElement('h1')
@@ -34,8 +34,10 @@ function showItems(image, name, description, price) {
   img.src = image;
   h1.innerHTML = name;
   paragraph.innerHTML = description;
-  span.innerHTML = `R$ ${price.toFixed(2)}`;
+  span.innerHTML = `${price.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
 
+  div.setAttribute('class', 'main-items__card')
+  div.setAttribute('id', `card-${id}`)
   div.appendChild(img)
   div.appendChild(h1)
   div.appendChild(paragraph)
