@@ -23,7 +23,12 @@
       align-items: center;
 
       & #optionCategory {
-        padding: 20px;
+        padding: 10px 15px;
+        font-family: "Josefin Sans", sans-serif;
+        outline: none;
+        font-weight: bold;
+        font-size: 1em;
+        margin-left: 10px;
       }
     }
   }

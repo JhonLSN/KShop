@@ -7,7 +7,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 10px 40px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .main-filter {
@@ -41,6 +41,11 @@
 }
 
 .main-filter__category #optionCategory {
-  padding: 20px;
+  padding: 10px 15px;
+  font-family: "Josefin Sans", sans-serif;
+  outline: none;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=main.css.map */
