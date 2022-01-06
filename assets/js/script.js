@@ -1,5 +1,4 @@
-const mainFilter = document.querySelector('.main-filter')
-let select = document.createElement('select')
+const selectFilter = document.querySelector('#optionCategory')
 
 
 fetch('../assets/json/items.json')
@@ -7,17 +6,17 @@ fetch('../assets/json/items.json')
 .then(data => {
   
   data.categorias.map((item) =>{
-    dropDownListFilter(item.nome)
+    dropDownListFilter(item.nome, item.id)
+
+    
   })
 })
 
-function dropDownListFilter(name) {
-    let option = document.createElement('option')
-    
+function dropDownListFilter(name, id) {
+    let option = document.createElement('option') 
 
     option.text = name;
-
-    mainFilter.appendChild(select)
-    select.appendChild(option)
+    option.setAttribute('id', id)
+    selectFilter.appendChild(option)
     
   }
