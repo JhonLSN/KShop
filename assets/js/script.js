@@ -33,7 +33,7 @@ function showItems(id, image, name, description, price) {
   img.src = image;
   h1.innerHTML = name;
   paragraph.innerHTML = description;
-  span.innerHTML = `${price.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`;
+  span.innerHTML = `${price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}`;
 
   div.setAttribute('class', 'main-items__card')
   div.setAttribute('id', `card-${id}`)
@@ -45,9 +45,16 @@ function showItems(id, image, name, description, price) {
 }
 
 selectFilter.addEventListener('click', () => {
-  
+  if (selectFilter.value === 'Todos') {
+    sectionItems.style.backgroundColor = 'blue'
+  } else if (selectFilter.value === 'Video Games') {
+    sectionItems.style.backgroundColor = 'black'
+  } else if (selectFilter.value === 'Smartphones') {
+    sectionItems.style.backgroundColor = 'pink'
+  } else {
+    sectionItems.style.backgroundColor = 'yellow'
+  }
 })
 
-if(selectFilter.value === 'Smartphones'){
-  alert('OK') 
-}
+
+
