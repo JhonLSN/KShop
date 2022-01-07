@@ -7,7 +7,7 @@ fetch('../assets/json/items.json')
   .then(data => {
 
     data.categorias.map((item) => {
-      dropDownListFilter(item.nome, item.id)
+      dropDownListFilter(item.nome, item.nome)
     })
 
     data.produtos.map((item) => {
@@ -19,9 +19,8 @@ function dropDownListFilter(name, id) {
   let option = document.createElement('option')
 
   option.text = name;
-  option.setAttribute('id', id)
+  option.setAttribute('value', id)
   selectFilter.appendChild(option)
-
 }
 
 function showItems(id, image, name, description, price) {
@@ -43,4 +42,12 @@ function showItems(id, image, name, description, price) {
   div.appendChild(paragraph)
   div.appendChild(span)
   sectionItems.appendChild(div)
+}
+
+selectFilter.addEventListener('click', () => {
+  
+})
+
+if(selectFilter.value === 'Smartphones'){
+  alert('OK') 
 }
