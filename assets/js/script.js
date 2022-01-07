@@ -15,6 +15,8 @@ fetch('../assets/json/items.json')
     })
   })
 
+  showOption()
+
 function dropDownListFilter(name, id) {
   let option = document.createElement('option')
 
@@ -44,35 +46,55 @@ function showItems(id, image, name, description, price, category) {
   sectionItems.appendChild(div)
 }
 
+function showOption() {
+  selectFilter.addEventListener('click', () => {
+    const category1 = document.querySelectorAll('.category-1')
+    const category2 = document.querySelectorAll('.category-2')
+    const category3 = document.querySelectorAll('.category-3')
 
-
-selectFilter.addEventListener('click', () => {
-  const category1 = document.querySelectorAll('.category-1')
-  const category2 = document.querySelectorAll('.category-2')
-  const category3 = document.querySelectorAll('.category-3')
-
-  category1.forEach((cat1) =>
-    cat1.style.background = 'pink'
-  );
-
-  if (selectFilter.value === 'Todos') {
-    category1.style.display = 'flex'
-    category2.style.display = 'flex'
-    category3.style.display = 'flex'
-  } else if (selectFilter.value === 'Video Games') {
-    category1.style.display = 'flex'
-    category2.style.display = 'none'
-    category3.style.display = 'none'
-  } else if (selectFilter.value === 'Smartphones') {
-    category1.style.display = 'none'
-    category2.style.display = 'flex'
-    category3.style.display = 'none'
-  } else {
-    category1.style.display = 'none'
-    category2.style.display = 'none'
-    category3.style.display = 'flex'
-  }
-})
+    if (selectFilter.value === 'Todos') {
+      category1.forEach((cat1) =>
+        cat1.style.display = 'flex'
+      );
+      category2.forEach((cat2) =>
+        cat2.style.display = 'flex'
+      );
+      category3.forEach((cat3) =>
+        cat3.style.display = 'flex'
+      );
+    } else if (selectFilter.value === 'Video Games') {
+      category1.forEach((cat1) =>
+        cat1.style.display = 'flex'
+      );
+      category2.forEach((cat2) =>
+        cat2.style.display = 'none'
+      );
+      category3.forEach((cat3) =>
+        cat3.style.display = 'none'
+      );
+    } else if (selectFilter.value === 'Smartphones') {
+      category1.forEach((cat1) =>
+        cat1.style.display = 'none'
+      );
+      category2.forEach((cat2) =>
+        cat2.style.display = 'flex'
+      );
+      category3.forEach((cat3) =>
+        cat3.style.display = 'none'
+      );
+    } else {
+      category1.forEach((cat1) =>
+        cat1.style.display = 'none'
+      );
+      category2.forEach((cat2) =>
+        cat2.style.display = 'none'
+      );
+      category3.forEach((cat3) =>
+        cat3.style.display = 'flex'
+      );
+    }
+  })
+}
 
 
 
