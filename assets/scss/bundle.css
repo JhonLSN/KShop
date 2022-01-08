@@ -270,5 +270,8 @@ table {
   height: 60px;
   width: 60px;
   border-radius: 25px;
+  bottom: 20px;
+  right: 20px;
+  background-color: aqua;
 }
 /*# sourceMappingURL=bundle.css.map */

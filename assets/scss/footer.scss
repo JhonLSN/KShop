@@ -6,9 +6,15 @@
 
   &__dark-mode {
     position: fixed;
-    height: 60px;
-    width: 60px;
-    // text-align: center;
-    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 30px;
+    background-color: #2a2c2c;
+    color: #5598a2;
   }
 }
