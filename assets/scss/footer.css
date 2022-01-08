@@ -57,12 +57,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 10px;
 }
 
 .footer-acess__nav-anchor {
   position: relative;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #48909b;
   text-decoration: none;
   margin-right: 10px;
@@ -88,9 +89,5 @@
           transform: translateX(-50%);
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
-}
-
-.footer-acess__nav-anchor.--change {
-  font-weight: bold;
 }
 /*# sourceMappingURL=footer.css.map */

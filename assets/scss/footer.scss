@@ -28,11 +28,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
+      margin-top: 10px;
+      
       &-anchor {
         position: relative;
         font-family: "Josefin Sans", sans-serif;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #48909b;
         text-decoration: none;
         margin-right: 10px;
@@ -55,10 +56,6 @@
           background-color: #48909b;
           transform: translateX(-50%);
           transition: all ease 0.4s;
-        }
-  
-        &.--change {
-          font-weight: bold;
         }
       }
     }
