@@ -234,5 +234,14 @@ table {
   color: white;
   margin-top: 10px;
   border-radius: 30px;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.main-items__card .btn:hover {
+  background: #2a2c2c;
+  color: #1fabc1;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
 }
 /*# sourceMappingURL=bundle.css.map */

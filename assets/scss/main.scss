@@ -75,6 +75,13 @@
         color: white;
         margin-top: 10px;
         border-radius: 30px;
+        transition: all ease .4s;
+
+        &:hover{
+          background: #2a2c2c;
+          color: #1fabc1;
+          transition: all ease .4s;
+        }
       }
     }
   }
