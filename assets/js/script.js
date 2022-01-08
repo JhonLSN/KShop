@@ -31,18 +31,23 @@ function showItems(id, image, name, description, price, category) {
   let h1 = document.createElement('h1')
   let paragraph = document.createElement('p')
   let span = document.createElement('span')
+  let btn = document.createElement('a')
 
   img.src = image;
   h1.innerHTML = name;
   paragraph.innerHTML = description;
   span.innerHTML = `${price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}`;
-
+  btn.href = '#'
+  btn.innerHTML = 'COMPRAR'
+  
   div.setAttribute('class', `main-items__card category-${category}`)
   div.setAttribute('id', `card-${id}`)
+  btn.setAttribute('class', `btn btnItem${id}`)
   div.appendChild(img)
   div.appendChild(h1)
   div.appendChild(paragraph)
   div.appendChild(span)
+  div.appendChild(btn)
   sectionItems.appendChild(div)
 }
 
