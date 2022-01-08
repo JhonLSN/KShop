@@ -267,11 +267,21 @@ table {
 
 .footer__dark-mode {
   position: fixed;
-  height: 60px;
-  width: 60px;
-  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 50px;
   bottom: 20px;
   right: 20px;
-  background-color: aqua;
+  border-radius: 30px;
+  background-color: #2a2c2c;
+  color: #5598a2;
 }
 /*# sourceMappingURL=bundle.css.map */
