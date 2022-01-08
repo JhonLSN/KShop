@@ -1,3 +1,14 @@
 .footer {
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+
+  &__dark-mode {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    // text-align: center;
+    border-radius: 25px;
+  }
 }
