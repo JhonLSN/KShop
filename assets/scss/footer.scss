@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 30px 100px;
   background-color: #b9d3df;
   font-family: "Josefin Sans", sans-serif;
 
@@ -101,6 +101,10 @@
           transition: all ease 0.4s;
         }
       }
+    }
+
+    &__copyright {
+      color: #48909b;
     }
   }
 }

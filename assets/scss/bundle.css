@@ -262,7 +262,7 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 40px 20px;
+  padding: 30px 100px;
   background-color: #b9d3df;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -403,5 +403,9 @@ table {
           transform: translateX(-50%);
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
+}
+
+.footer-media__copyright {
+  color: #48909b;
 }
 /*# sourceMappingURL=bundle.css.map */
