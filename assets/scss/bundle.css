@@ -63,14 +63,21 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 40px;
+  padding: 10px 40px;
   background: linear-gradient(185deg, #98b0bb87, #71acc787);
 }
 
-.header__title {
-  font-family: "Alata", sans-serif;
-  font-size: 2rem;
-  font-weight: 200;
+.header__input {
+  width: 30%;
+  background: #fff;
+  outline: none;
+  padding: 10px;
+  font-size: 1em;
+  color: #48909b;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header__nav {
@@ -87,7 +94,7 @@ table {
 
 .header__nav-anchor {
   position: relative;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.2rem;
   color: #48909b;
   text-decoration: none;
@@ -104,7 +111,7 @@ table {
 
 .header__nav-anchor::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 0;
   height: 2px;
   left: 50%;
@@ -112,8 +119,8 @@ table {
   background-color: #48909b;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .header__nav-anchor.--change {
