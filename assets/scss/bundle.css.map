@@ -5,7 +5,8 @@
         "bundle.scss",
         "reset.scss",
         "header.scss",
-        "main.scss"
+        "main.scss",
+        "footer.scss"
     ],
     "names": [],
     "file": "bundle.css"
