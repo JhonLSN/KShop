@@ -8,7 +8,7 @@
 
   &.dark {
     background-color: #2a2c2c;
-    transition: all ease .4s;
+    transition: all ease 0.4s;
   }
 
   &__dark-mode {
@@ -24,6 +24,13 @@
     background-color: #2a2c2c;
     color: #5598a2;
     cursor: pointer;
+    transition: all ease 0.4s;
+
+    &.dark {
+      background-color: #5598a2;
+      color: #2a2c2c;
+      transition: all ease 0.4s;
+    }
   }
 
   &-acess {
@@ -44,15 +51,15 @@
         color: #48909b;
         text-decoration: none;
         margin-right: 10px;
-  
+
         &:hover {
           font-weight: bold;
-  
+
           &::after {
             width: 100%;
           }
         }
-  
+
         &::after {
           position: absolute;
           content: "";
@@ -86,15 +93,15 @@
         color: #48909b;
         text-decoration: none;
         margin-right: 10px;
-  
+
         &:hover {
           font-weight: bold;
-  
+
           &::after {
             width: 100%;
           }
         }
-  
+
         &::after {
           position: absolute;
           content: "";

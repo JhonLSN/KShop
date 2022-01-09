@@ -300,8 +300,8 @@ table {
 
 .footer.dark {
   background-color: #2a2c2c;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .footer__dark-mode {
@@ -323,6 +323,15 @@ table {
   background-color: #2a2c2c;
   color: #5598a2;
   cursor: pointer;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.footer__dark-mode.dark {
+  background-color: #5598a2;
+  color: #2a2c2c;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .footer-acess {
