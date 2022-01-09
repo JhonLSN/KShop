@@ -86,6 +86,15 @@ table {
   border-radius: 30px;
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.header__input.dark {
+  border: 1px solid #48909b;
+  background: #2a2c2c;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .header__nav {
