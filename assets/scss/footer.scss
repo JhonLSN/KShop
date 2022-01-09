@@ -6,6 +6,11 @@
   background-color: #b9d3df;
   font-family: "Josefin Sans", sans-serif;
 
+  &.dark {
+    background-color: #2a2c2c;
+    transition: all ease .4s;
+  }
+
   &__dark-mode {
     position: fixed;
     display: flex;

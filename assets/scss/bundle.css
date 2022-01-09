@@ -298,6 +298,12 @@ table {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.footer.dark {
+  background-color: #2a2c2c;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
 .footer__dark-mode {
   position: fixed;
   display: -webkit-box;
