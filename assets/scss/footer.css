@@ -8,7 +8,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 40px 100px;
+  padding: 30px 100px;
   background-color: #b9d3df;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -31,6 +31,7 @@
   border-radius: 30px;
   background-color: #2a2c2c;
   color: #5598a2;
+  cursor: pointer;
 }
 
 .footer-acess {

@@ -65,6 +65,14 @@ table {
           align-items: center;
   padding: 10px 40px;
   background: linear-gradient(185deg, #98b0bb87, #71acc787);
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.header.dark {
+  background: #2a2c2c;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 
 .header__input {
@@ -285,6 +293,7 @@ table {
   border-radius: 30px;
   background-color: #2a2c2c;
   color: #5598a2;
+  cursor: pointer;
 }
 
 .footer-acess {
