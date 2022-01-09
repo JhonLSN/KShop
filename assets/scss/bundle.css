@@ -254,8 +254,8 @@ table {
 .main-items__card .btn {
   padding: 10px 30px;
   background: #5598a2;
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   margin-top: 10px;
   border-radius: 30px;
   -webkit-transition: all ease .4s;
@@ -265,6 +265,20 @@ table {
 .main-items__card .btn:hover {
   background: #2a2c2c;
   color: #1fabc1;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.main-items__card .btn.dark {
+  background: #2a2c2c;
+  color: #1fabc1;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.main-items__card .btn.dark:hover {
+  background: #5598a2;
+  color: white;
   -webkit-transition: all ease .4s;
   transition: all ease .4s;
 }
