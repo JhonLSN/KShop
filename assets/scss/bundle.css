@@ -166,6 +166,13 @@ table {
     visibility: visible;
     overflow: auto;
   }
+  .header__nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  .header__nav.active #hamburger::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
   .header__nav__btnMobile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -178,6 +185,7 @@ table {
     gap: .5rem;
   }
   .header__nav__btnMobile #hamburger {
+    color: #48909b;
     display: block;
     border-top: 2px solid;
     width: 20px;
@@ -187,7 +195,7 @@ table {
     display: block;
     width: 20px;
     height: 2px;
-    background: blue;
+    background: currentColor;
     margin-top: 5px;
   }
   .header__nav__menu {

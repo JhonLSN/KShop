@@ -90,6 +90,14 @@
           visibility: visible;
           overflow: auto;
         }
+
+        & #hamburger {
+          border-top-color: transparent;
+          
+          &::before {
+            transform: rotate(45deg);
+          }
+        }
       }
 
       &__btnMobile {
@@ -102,6 +110,7 @@
         gap: .5rem;
 
         & #hamburger {
+          color: #48909b;
           display: block;
           border-top: 2px solid;
           width: 20px;
@@ -111,7 +120,7 @@
             display: block;
             width: 20px;
             height: 2px;
-            background: blue;
+            background: currentColor;
             margin-top: 5px;
           }
         }
