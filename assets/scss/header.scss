@@ -87,6 +87,7 @@
       &.active {
         .header__nav__menu {
           height: calc(100vh - 56px);
+          visibility: visible;
         }
       }
 
@@ -103,6 +104,9 @@
         background: #bcd4e0;
         z-index: 1000;
         transition: 0.6s;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
 
         & li {
           text-align: center;
