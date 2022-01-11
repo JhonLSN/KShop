@@ -95,7 +95,12 @@
           border-top-color: transparent;
           
           &::before {
-            transform: rotate(45deg);
+            transform: rotate(135deg);
+          }
+
+          &::after {
+            transform: rotate(-135deg);
+            top: -7px;
           }
         }
       }
@@ -117,11 +122,13 @@
 
           &::after, &::before {
             content: '';
+            position: relative;
             display: block;
             width: 20px;
             height: 2px;
             background: currentColor;
             margin-top: 5px;
+            transition: .3s;
           }
         }
       }

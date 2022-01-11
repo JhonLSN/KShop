@@ -115,8 +115,12 @@
     border-top-color: transparent;
   }
   .header__nav.active #hamburger::before {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .header__nav.active #hamburger::after {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
   }
   .header__nav__btnMobile {
     display: -webkit-box;
@@ -137,11 +141,14 @@
   }
   .header__nav__btnMobile #hamburger::after, .header__nav__btnMobile #hamburger::before {
     content: '';
+    position: relative;
     display: block;
     width: 20px;
     height: 2px;
     background: currentColor;
     margin-top: 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
   }
   .header__nav__menu {
     display: block;
