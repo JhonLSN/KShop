@@ -229,6 +229,9 @@ table {
     visibility: hidden;
     overflow-y: hidden;
   }
+  .header__nav__menu.dark {
+    background: #2a2c2c;
+  }
   .header__nav__menu li {
     text-align: center;
     margin: 0 1rem;
