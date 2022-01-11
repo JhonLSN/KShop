@@ -106,6 +106,12 @@
 }
 
 @media screen and (max-width: 700px) {
+  .header {
+    padding: 11px 40px;
+  }
+  .header__input {
+    display: none;
+  }
   .header__nav.active .header__nav__menu {
     height: calc(100vh - 56px);
     visibility: visible;
@@ -121,6 +127,7 @@
   .header__nav.active #hamburger::after {
     -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
+    top: -7px;
   }
   .header__nav__btnMobile {
     display: -webkit-box;
@@ -132,6 +139,7 @@
     background: none;
     cursor: pointer;
     gap: .5rem;
+    color: #48909b;
   }
   .header__nav__btnMobile #hamburger {
     color: #48909b;
