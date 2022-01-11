@@ -75,6 +75,10 @@ table {
   transition: all ease 0.4s;
 }
 
+.header__btnMobile {
+  display: none;
+}
+
 .header__input {
   width: 30%;
   background: #fff;
@@ -142,6 +146,15 @@ table {
 
 .header__nav-anchor.--change {
   font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .header__btnMobile {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+  }
 }
 
 .main {

@@ -20,6 +20,10 @@
   transition: all ease 0.4s;
 }
 
+.header__btnMobile {
+  display: none;
+}
+
 .header__input {
   width: 30%;
   background: #fff;
@@ -87,5 +91,14 @@
 
 .header__nav-anchor.--change {
   font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .header__btnMobile {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+  }
 }
 /*# sourceMappingURL=header.css.map */
