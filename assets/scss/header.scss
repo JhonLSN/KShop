@@ -84,6 +84,12 @@
 @media screen and (max-width: 700px) {
   .header {
     &__nav{
+      &.active{
+        .header__nav__menu {
+          display: flex;
+        }
+      }
+
       &__btnMobile {
         display: block;
       }
