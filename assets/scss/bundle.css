@@ -178,8 +178,17 @@ table {
     gap: .5rem;
   }
   .header__nav__btnMobile #hamburger {
+    display: block;
     border-top: 2px solid;
     width: 20px;
+  }
+  .header__nav__btnMobile #hamburger::after, .header__nav__btnMobile #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: blue;
+    margin-top: 5px;
   }
   .header__nav__menu {
     display: block;

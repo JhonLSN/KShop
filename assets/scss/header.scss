@@ -102,8 +102,18 @@
         gap: .5rem;
 
         & #hamburger {
+          display: block;
           border-top: 2px solid;
           width: 20px;
+
+          &::after, &::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: blue;
+            margin-top: 5px;
+          }
         }
       }
 
