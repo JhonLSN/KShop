@@ -126,31 +126,7 @@
         }
   
         & .btn {
-          padding: 10px 30px;
-          background: #5598a2;
-          color: white;
-          text-decoration: none;
-          margin-top: 10px;
-          border-radius: 30px;
-          transition: all ease .4s;
-  
-          &:hover{
-            background: #2a2c2c;
-            color: #1fabc1;
-            transition: all ease .4s;
-          }
-  
-          &.dark {
-            background: #2a2c2c;
-            color: #1fabc1;          
-            transition: all ease .4s;
-  
-            &:hover{
-              background: #5598a2;
-              color: white;
-              transition: all ease .4s;
-            }
-          }
+          padding: 12px 35px;
         }
       }
     }
