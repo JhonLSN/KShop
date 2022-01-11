@@ -88,11 +88,15 @@
         .header__nav__menu {
           height: calc(100vh - 56px);
           visibility: visible;
+          overflow: auto;
         }
       }
 
       &__btnMobile {
-        display: block;
+        display: flex;
+        padding: .5rem 1rem;   
+        font-size: 1rem;
+        border: none;   
       }
 
       &__menu {

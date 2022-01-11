@@ -109,9 +109,14 @@
   .header__nav.active .header__nav__menu {
     height: calc(100vh - 56px);
     visibility: visible;
+    overflow: auto;
   }
   .header__nav__btnMobile {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
   }
   .header__nav__menu {
     display: block;
@@ -125,7 +130,7 @@
     transition: 0.6s;
     height: 0px;
     visibility: hidden;
-    overflow: hidden;
+    overflow-y: hidden;
   }
   .header__nav__menu li {
     text-align: center;
