@@ -374,6 +374,107 @@ table {
   transition: all ease .4s;
 }
 
+@media screen and (max-width: 700px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 40px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .main-filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main-filter__nav {
+    color: black;
+  }
+  .main-filter__nav a {
+    text-decoration: none;
+    color: black;
+  }
+  .main-filter__category {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-filter__category #optionCategory {
+    padding: 10px 15px;
+    font-family: "Josefin Sans", sans-serif;
+    outline: none;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  .main-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .main-items__card {
+    width: 100%;
+  }
+  .main-items__card img {
+    max-width: 40%;
+  }
+  .main-items__card h1 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+  .main-items__card p {
+    width: 50%;
+    text-align: center;
+  }
+  .main-items__card span {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  .main-items__card .btn {
+    padding: 10px 30px;
+    background: #5598a2;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 30px;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+  }
+  .main-items__card .btn:hover {
+    background: #2a2c2c;
+    color: #1fabc1;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+  }
+  .main-items__card .btn.dark {
+    background: #2a2c2c;
+    color: #1fabc1;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+  }
+  .main-items__card .btn.dark:hover {
+    background: #5598a2;
+    color: white;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+  }
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
