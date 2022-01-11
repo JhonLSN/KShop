@@ -11,10 +11,6 @@
     transition: all ease 0.4s;
   }
 
-  &__btnMobile {
-    display: none;
-  }
-
   &__input {
     width: 30%;
     background: #fff;
@@ -40,36 +36,46 @@
     align-items: center;
     justify-content: center;
 
-    &-anchor {
-      position: relative;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 1.2rem;
-      color: #48909b;
-      text-decoration: none;
-      margin-right: 10px;
+    &_btnMobile {
+      display: none;
+    }
 
-      &:hover {
-        font-weight: bold;
+    &_menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-anchor {
+        position: relative;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 1.2rem;
+        color: #48909b;
+        text-decoration: none;
+        margin-right: 10px;
+
+        &:hover {
+          font-weight: bold;
+
+          &::after {
+            width: 100%;
+          }
+        }
 
         &::after {
-          width: 100%;
+          position: absolute;
+          content: "";
+          width: 0;
+          height: 2px;
+          left: 50%;
+          bottom: -2px;
+          background-color: #48909b;
+          transform: translateX(-50%);
+          transition: all ease 0.4s;
         }
-      }
 
-      &::after {
-        position: absolute;
-        content: "";
-        width: 0;
-        height: 2px;
-        left: 50%;
-        bottom: -2px;
-        background-color: #48909b;
-        transform: translateX(-50%);
-        transition: all ease 0.4s;
-      }
-
-      &.--change {
-        font-weight: bold;
+        &.--change {
+          font-weight: bold;
+        }
       }
     }
   }
@@ -83,6 +89,10 @@
 
     &__nav {
       display: none;
+    }
+
+    .header__nav.active .header {
+      display: flex;
     }
   }
 }
