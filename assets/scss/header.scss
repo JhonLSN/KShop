@@ -97,6 +97,14 @@
         padding: .5rem 1rem;   
         font-size: 1rem;
         border: none;   
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+
+        & #hamburger {
+          border-top: 2px solid;
+          width: 20px;
+        }
       }
 
       &__menu {
