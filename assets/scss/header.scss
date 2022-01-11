@@ -86,7 +86,7 @@
     &__nav{
       &.active{
         .header__nav__menu {
-          display: flex;
+          display: block;
         }
       }
 
@@ -95,7 +95,15 @@
       }
 
       &__menu {
-        display: none;
+        // display: none;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 56px;
+        right: 0px;
+        background: #bcd4e0;
+        height: calc(100vh - 56px);
+        z-index: 1000;
       }
     }
   }

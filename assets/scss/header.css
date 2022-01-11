@@ -107,15 +107,20 @@
 
 @media screen and (max-width: 700px) {
   .header__nav.active .header__nav__menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   .header__nav__btnMobile {
     display: block;
   }
   .header__nav__menu {
-    display: none;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    right: 0px;
+    background: #bcd4e0;
+    height: calc(100vh - 56px);
+    z-index: 1000;
   }
 }
 /*# sourceMappingURL=header.css.map */
