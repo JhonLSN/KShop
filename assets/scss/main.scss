@@ -100,42 +100,7 @@
 }
 
 @media screen and (max-width:700px){
-  .main {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 40px;
-    font-family: "Josefin Sans", sans-serif;
-  
-    &-filter {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  
-      &__nav {
-        color: black;
-  
-        & a {
-          text-decoration: none;
-          color: black;
-        }
-      }
-  
-      &__category {
-        display: flex;
-        align-items: center;
-  
-        & #optionCategory {
-          padding: 10px 15px;
-          font-family: "Josefin Sans", sans-serif;
-          outline: none;
-          font-weight: bold;
-          font-size: 1em;
-          margin-left: 10px;
-          border-radius: 10px;
-        }
-      }
-    }
-  
+  .main {  
     &-items {
       flex-flow: column nowrap;
   
@@ -147,18 +112,17 @@
         }
   
         h1 {
-          font-size: 1.4rem;
-          margin-top: 20px;
+          font-size: 1.8rem;
         }
   
         p {
-          width: 50%;
-          text-align: center;
+          width: 90%;
+          font-size: 1.1rem;
+          margin-top: 5px;
         }
   
         span {
-          font-size: 1.4rem;
-          margin-top: 10px;
+          font-size: 1.6rem;
         }
   
         & .btn {
