@@ -144,49 +144,19 @@
       }
     }
   
-    &-media {
-      display: flex;
-      flex-flow: column nowrap;
-      align-items: center;
-      justify-content: center;
-  
-      &__icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
-  
+    &-media {  
+      &__icon {  
         &-anchor {
-          position: relative;
-          font-size: 1.2rem;
-          color: #48909b;
-          text-decoration: none;
-          margin-right: 10px;
-  
-          &:hover {
-            font-weight: bold;
-  
-            &::after {
-              width: 100%;
-            }
-          }
-  
-          &::after {
-            position: absolute;
-            content: "";
-            width: 0;
-            height: 2px;
-            left: 50%;
-            bottom: -2px;
-            background-color: #48909b;
-            transform: translateX(-50%);
-            transition: all ease 0.4s;
-          }
+          font-size: 1.4rem;
+          margin-right: 15px;
+          margin-bottom: 15px;
         }
       }
-  
+      
       &__copyright {
         color: #48909b;
+        text-align: center;
+        font-size: 1.1rem;
       }
     }
   }
