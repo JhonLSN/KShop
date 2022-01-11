@@ -36,11 +36,11 @@
     align-items: center;
     justify-content: center;
 
-    &_btnMobile {
+    &__btnMobile {
       display: none;
     }
 
-    &_menu {
+    &__menu {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -83,16 +83,14 @@
 
 @media screen and (max-width: 700px) {
   .header {
-    &__btnMobile {
-      display: block;
-    }
+    &__nav{
+      &__btnMobile {
+        display: block;
+      }
 
-    &__nav {
-      display: none;
-    }
-
-    .header__nav.active .header {
-      display: flex;
+      &__menu {
+        display: none;
+      }
     }
   }
 }
