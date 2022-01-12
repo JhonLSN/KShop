@@ -138,6 +138,9 @@
 }
 
 @media screen and (max-width: 700px) {
+  .main {
+    padding-top: 70px;
+  }
   .main-items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
