@@ -197,6 +197,7 @@
   .footer-acess__nav-anchor {
     font-size: 1.2rem;
     margin-right: 0px;
+    position: initial;
   }
   .footer-media__icon-anchor {
     font-size: 1.4rem;
