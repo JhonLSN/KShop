@@ -54,6 +54,8 @@ table {
 }
 
 .header {
+  position: fixed;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +66,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 40px;
-  background: linear-gradient(185deg, #98b0bb87, #71acc787);
+  background: #bcd4e0;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
 }

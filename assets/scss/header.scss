@@ -1,9 +1,11 @@
 .header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
-  background: linear-gradient(185deg, #98b0bb87, #71acc787);
+  background: #bcd4e0;
   transition: all ease 0.4s;
 
   &.dark {
