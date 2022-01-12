@@ -24,6 +24,7 @@
     background-color: #2a2c2c;
     color: #5598a2;
     cursor: pointer;
+    z-index: 10;
     transition: all ease 0.4s;
 
     &.dark {

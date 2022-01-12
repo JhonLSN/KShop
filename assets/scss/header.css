@@ -11,6 +11,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 40px;
+  z-index: 100;
   background: #bcd4e0;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;

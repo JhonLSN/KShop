@@ -38,6 +38,7 @@
   background-color: #2a2c2c;
   color: #5598a2;
   cursor: pointer;
+  z-index: 10;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
 }
@@ -203,6 +204,7 @@
     font-size: 1.4rem;
     margin-right: 15px;
     margin-bottom: 15px;
+    position: initial;
   }
   .footer-media__copyright {
     color: #48909b;
