@@ -18,7 +18,7 @@ A aplicação é uma loja virtual fictícia que decidi fazer a partir de um desa
 Ela foi criada do zero, além dos códigos que foram feitos por mim.
 O projeto foi criado com o intuito de praticar JSON e Fetch além de obter ótimos resultados com a API.
 
-Nela contêm o recurso de: 
+Nela contêm os recursos de: 
 - Filtrar produtos pela sua categoria.
 - Modo escuro.
 - Visualizar produtos. 
