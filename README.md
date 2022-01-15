@@ -12,20 +12,29 @@
 </h1>
 
 ## :book: Sobre
-Este repositório contêm a aplicação Cronômetro.
+Este repositório contêm a aplicação KShop.
 
-A aplicação é um Web Site que faz a contagem deo tempo que falta para determinado dia/horário.
+A aplicação é uma loja virtual fictícia que decidi fazer a partir de um desafio de entrevista em que tive a oportunidade de participar.
 Ela foi criada do zero, além dos códigos que foram feitos por mim.
-O projeto foi criado com o intuito de facilitar a visualização do tempo restante para o dia selecionado.
+O projeto foi criado com o intuito de praticar JSON e Fetch além de obter ótimos resultados com a API.
 
 Nela contêm o recurso de: 
-- Definir *(por meio da linha de comando)* uma data para contagem regressiva.
+- Filtrar produtos pela sua categoria.
+- Modo escuro.
+- Visualizar produtos. 
+- Responsividade.
 
 ## :hammer: Tecnologias
 Este projeto foi feito com as seguintes tecnologias:
 - HTML5
 - CSS3
-- JavaScript 
 - SASS
+- JavaScript 
+- API
+- Fetch
 
-Acesse o projeto [Clicando Aqui](https://jhonlsn.github.io/Countdown-Timer/) 
+<p align="center">
+  <a href="https://jhonlsn-kshop.netlify.app/" target="_blank">
+    <img src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png" alt="Demo on Netlify" title="Demo on Netlify">
+  </a>
+<p/>
