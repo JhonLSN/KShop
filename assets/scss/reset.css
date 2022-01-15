@@ -3,6 +3,25 @@
           box-sizing: border-box;
 }
 
+* ::-webkit-scrollbar-track {
+  background: #000;
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
+* ::-webkit-scrollbar {
+  width: 5px;
+  background: #f4f4f4;
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background: #bcd4e0;
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
